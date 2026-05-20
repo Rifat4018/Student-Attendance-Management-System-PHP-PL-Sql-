@@ -28,17 +28,28 @@ This project features a custom-built database layer, migrating from traditional 
 3.  **Transaction Control:** Utilized `oci_commit` and `oci_rollback` to ensure that bulk attendance updates maintain data consistency (ACID compliance).
 4.  **Prepared Statements:** Optimized database interactions using `oci_bind_by_name` for secure and high-performance querying.
 
-## 📸 Screenshots
+## 📸 Project Screenshots
 
-<div style="white-space: nowrap; overflow-x: auto; padding: 10px 0;">
-    <img src="img/login.png" height="150" alt="Login">
-    <img src="img/dashboard.png" height="150" alt="Dashboard">
-    <img src="img/manage_classes.png" height="150" alt="Manage Classes">
-    <img src="img/create_class.png" height="150" alt="Create Class">
-    <img src="img/create_teacher.png" height="150" alt="Teachers">
-    <img src="img/manage_students.png" height="150" alt="Students">
-    <img src="img/manage_sessions.png" height="150" alt="Sessions">
-</div>
+### 1. Login Panel
+![Login Panel](img/login.png)
+
+### 2. Admin Dashboard
+![Admin Dashboard](img/dashboard.png)
+
+### 3. Manage Classes
+![Manage Classes](img/manage_classes.png)
+
+### 4. Create New Class
+![Create New Class](img/create_class.png)
+
+### 5. Teacher Management
+![Teacher Management](img/create_teacher.png)
+
+### 6. Student Management
+![Student Management](img/manage_students.png)
+
+### 7. Session & Terms
+![Session & Terms](img/manage_sessions.png)
 
 ## ⚙️ Installation & Setup
 
