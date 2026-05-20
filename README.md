@@ -32,7 +32,7 @@ This project features a custom-built database layer, migrating from traditional 
 
 | Login Panel | Admin Dashboard |
 | :---: | :---: |
-| ![Login](img/login.png) | ![Dashboard](img/dashboard.jpg) |
+| ![Login](img/login.png) | ![Dashboard](img/dashboard.png) |
 
 | Manage Classes | Create New Class |
 | :---: | :---: |
