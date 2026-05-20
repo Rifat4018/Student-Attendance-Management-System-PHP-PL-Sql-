@@ -30,21 +30,15 @@ This project features a custom-built database layer, migrating from traditional 
 
 ## 📸 Screenshots
 
-| Login Panel | Admin Dashboard |
-| :---: | :---: |
-| ![Login](img/login.png) | ![Dashboard](img/dashboard.png) |
-
-| Manage Classes | Create New Class |
-| :---: | :---: |
-| ![Classes](img/manage_classes.png) | ![Create Class](img/create_class.png) |
-
-| Teacher Management | Student Management |
-| :---: | :---: |
-| ![Teachers](img/create_teacher.png) | ![Students](img/manage_students.png) |
-
-| Session & Terms |
-| :---: |
-| ![Sessions](img/manage_sessions.png) |
+<div style="display: flex; flex-direction: row; gap: 10px; overflow-x: auto;">
+  <img src="img/login.png" width="150" title="Login Panel">
+  <img src="img/dashboard.png" width="150" title="Admin Dashboard">
+  <img src="img/manage_classes.png" width="150" title="Manage Classes">
+  <img src="img/create_class.png" width="150" title="Create Class">
+  <img src="img/create_teacher.png" width="150" title="Teacher Management">
+  <img src="img/manage_students.png" width="150" title="Student Management">
+  <img src="img/manage_sessions.png" width="150" title="Session & Terms">
+</div>
 
 ## ⚙️ Installation & Setup
 
