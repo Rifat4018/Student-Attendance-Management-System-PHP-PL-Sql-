@@ -1,14 +1,54 @@
-# Student-Attendance-Management-System
-This PHP attendance system project is primarily concerned with dealing with students' attendance and records. In addition, the system displays all available data, such as instructor and student information, as well as their individual attendance. Admin Panel, Student Panel, and Teacher's Panel are the three sections of the project. In this web app's overview, the administrator has the ability to create users as well as insert student and teacher data. In terms of the project, the administrator has access to all student and teacher records. The teacher's account allows him or her to filter student data and keep track of his or her attendance for a certain subject. Aside from that, the student has access to just records and attendance reports.
+# Student Attendance Management System (SAMS)
+
+A robust, enterprise-grade school management solution designed to streamline the daily attendance tracking process. Built with a focus on data integrity, security, and scalability, this system manages the lifecycle of academic sessions, course assignments, and student attendance records.
+
+## 🚀 Key Features
+
+*   **Role-Based Authentication:** Secure login for Administrators and Class Teachers.
+*   **Academic Session Management:** Easily create and toggle between active academic sessions and terms.
+*   **Dynamic Course & Section Allocation:** Assign teachers to specific course sections with referential integrity.
+*   **Daily Attendance Workflow:** Efficient pre-loading of enrolled students with one-click "Present/Absent" toggling.
+*   **Historical Reporting:** View attendance records filtered by date and class section.
+*   **Security First:** Implementation of parameterized queries (OCI8) to prevent SQL Injection.
+
+## 🛠 Tech Stack
+
+*   **Backend:** PHP 8.0+
+*   **Database:** Oracle Database 10g
+*   **Interface:** Bootstrap, HTML5, CSS3, JavaScript
+*   **Server:** XAMPP (Apache)
+*   **Connectivity:** PHP OCI8 Driver
+
+## 💡 Technical Highlights (Migration to Oracle 10g)
+
+This project features a custom-built database layer, migrating from traditional MySQL to a more enterprise-standard **Oracle 10g** environment. Key architectural challenges overcome during development:
+
+1.  **Sequence-Based ID Generation:** Implemented custom Oracle Sequences (`NEXTVAL`) to replicate auto-increment functionality required for primary keys.
+2.  **Date Handling:** Standardized date storage and retrieval using `TO_DATE` and `TRUNC` functions to ensure compatibility across system timezones.
+3.  **Transaction Control:** Utilized `oci_commit` and `oci_rollback` to ensure that bulk attendance updates maintain data consistency (ACID compliance).
+4.  **Prepared Statements:** Optimized database interactions using `oci_bind_by_name` for secure and high-performance querying.
+
+## ⚙️ Installation & Setup
+
+### Prerequisites
+1.  **Oracle 10g Database** installed and running.
+2.  **XAMPP** installed.
+3.  **Oracle Instant Client** (Basic Package) installed and configured in your Windows System `Path`.
+
+### Steps
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/your-username/student-attendance-system.git](https://github.com/your-username/student-attendance-system.git)
+    
 
 ** Admin Login Details **
 * Email   : admin@mail.com
-* Password: 
+* Password: admin
 
 **Teacher Login Details**
 
 * Email   : teacher@mail.com
-* Password: 
+* Password: pass123
 #
 ![Screenshot (1308)](https://user-images.githubusercontent.com/36708000/173136998-4de6eccc-377f-419e-83b6-e767503bbb5d.png)
 #
