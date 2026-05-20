@@ -4,20 +4,20 @@ A robust, enterprise-grade school management solution designed to streamline the
 
 ## 🚀 Key Features
 
-*   **Role-Based Authentication:** Secure login for Administrators and Class Teachers.
-*   **Academic Session Management:** Easily create and toggle between active academic sessions and terms.
-*   **Dynamic Course & Section Allocation:** Assign teachers to specific course sections with referential integrity.
-*   **Daily Attendance Workflow:** Efficient pre-loading of enrolled students with one-click "Present/Absent" toggling.
-*   **Historical Reporting:** View attendance records filtered by date and class section.
-*   **Security First:** Implementation of parameterized queries (OCI8) to prevent SQL Injection.
+* **Role-Based Authentication:** Secure login for Administrators and Class Teachers.
+* **Academic Session Management:** Easily create and toggle between active academic sessions and terms.
+* **Dynamic Course & Section Allocation:** Assign teachers to specific course sections with referential integrity.
+* **Daily Attendance Workflow:** Efficient pre-loading of enrolled students with one-click "Present/Absent" toggling.
+* **Historical Reporting:** View attendance records filtered by date and class section.
+* **Security First:** Implementation of parameterized queries (OCI8) to prevent SQL Injection.
 
 ## 🛠 Tech Stack
 
-*   **Backend:** PHP 8.0+
-*   **Database:** Oracle Database 10g
-*   **Interface:** Bootstrap, HTML5, CSS3, JavaScript
-*   **Server:** XAMPP (Apache)
-*   **Connectivity:** PHP OCI8 Driver
+* **Backend:** PHP 8.0+
+* **Database:** Oracle Database 10g
+* **Interface:** Bootstrap, HTML5, CSS3, JavaScript
+* **Server:** XAMPP (Apache)
+* **Connectivity:** PHP OCI8 Driver
 
 ## 💡 Technical Highlights (Migration to Oracle 10g)
 
@@ -28,6 +28,24 @@ This project features a custom-built database layer, migrating from traditional 
 3.  **Transaction Control:** Utilized `oci_commit` and `oci_rollback` to ensure that bulk attendance updates maintain data consistency (ACID compliance).
 4.  **Prepared Statements:** Optimized database interactions using `oci_bind_by_name` for secure and high-performance querying.
 
+## 📸 Screenshots
+
+| Login Panel | Admin Dashboard |
+| :---: | :---: |
+| ![Login](img/login.png) | ![Dashboard](img/dashboard.jpg) |
+
+| Manage Classes | Create New Class |
+| :---: | :---: |
+| ![Classes](img/manage_classes.png) | ![Create Class](img/create_class.png) |
+
+| Teacher Management | Student Management |
+| :---: | :---: |
+| ![Teachers](img/create_teacher.png) | ![Students](img/manage_students.png) |
+
+| Session & Terms |
+| :---: |
+| ![Sessions](img/manage_sessions.png) |
+
 ## ⚙️ Installation & Setup
 
 ### Prerequisites
@@ -35,25 +53,14 @@ This project features a custom-built database layer, migrating from traditional 
 2.  **XAMPP** installed.
 3.  **Oracle Instant Client** (Basic Package) installed and configured in your Windows System `Path`.
 
-### Steps
-1.  **Clone the Repository:**
-    ```bash
-    git clone [https://github.com/your-username/student-attendance-system.git](https://github.com/your-username/student-attendance-system.git)
-    
+### Credentials
+**Admin Login:**
+* Email: `admin@mail.com`
+* Password: `admin`
 
-** Admin Login Details **
-* Email   : admin@mail.com
-* Password: admin
+**Teacher Login:**
+* Email: `teacher@mail.com`
+* Password: `pass123`
 
-**Teacher Login Details**
-
-* Email   : teacher@mail.com
-* Password: pass123
-#
-![Screenshot (1308)](https://user-images.githubusercontent.com/36708000/173136998-4de6eccc-377f-419e-83b6-e767503bbb5d.png)
-#
-![Screenshot (1309)](https://user-images.githubusercontent.com/36708000/173137041-69d68213-077d-4362-bd4e-cfba5a6b2202.png)
-#
-![Screenshot (1313)](https://user-images.githubusercontent.com/36708000/173137057-5aad5420-7689-4d5e-aae0-df796154e993.png)
-#
-![Screenshot (1316)](https://user-images.githubusercontent.com/36708000/173137075-81d7b66e-a5cc-4228-ab14-cecc465701d7.png)
+---
+*Built with ❤️ in Dhaka, Bangladesh.*
